@@ -8,7 +8,11 @@ env/
 # Môi trường và Bảo mật
 .env
 *.local
-
+**/config.yaml
 # Hệ điều hành
 .DS_Store
 Thumbs.db
+# Bộ nhớ
+*.db
+*.sqlite3
+.env
