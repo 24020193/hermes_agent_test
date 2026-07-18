@@ -1,0 +1,45 @@
+{
+  "jobs": [
+    {
+      "id": "30156ffefef2",
+      "name": "cao_tin_sang",
+      "prompt": "T\u1ed5ng h\u1ee3p 3 tin t\u1ee9c c\u00f4ng ngh\u1ec7 AI m\u1edbi nh\u1ea5t v\u00e0 n\u1ed5i b\u1eadt nh\u1ea5t h\u00f4m nay",
+      "skills": [],
+      "skill": null,
+      "model": null,
+      "provider": null,
+      "provider_snapshot": "gemini",
+      "model_snapshot": "gemini-3.5-flash",
+      "base_url": null,
+      "script": null,
+      "no_agent": false,
+      "context_from": null,
+      "schedule": {
+        "kind": "cron",
+        "expr": "30 7 * * *",
+        "display": "30 7 * * *"
+      },
+      "schedule_display": "30 7 * * *",
+      "repeat": {
+        "times": null,
+        "completed": 3
+      },
+      "enabled": true,
+      "state": "scheduled",
+      "paused_at": null,
+      "paused_reason": null,
+      "created_at": "2026-07-16T10:12:28.778103+00:00",
+      "next_run_at": "2026-07-19T07:30:00+07:00",
+      "last_run_at": "2026-07-18T07:31:46.851222+07:00",
+      "last_status": "error",
+      "last_error": "RuntimeError: HTTP 429: Gemini HTTP 429 (RESOURCE_EXHAUSTED): You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.5-flash\nPlease retry in 15.106520644s.\n\nYour Google API key is on the free tier (<= 250 request",
+      "last_delivery_error": null,
+      "deliver": "telegram:7832549599",
+      "origin": null,
+      "enabled_toolsets": null,
+      "workdir": null,
+      "fire_claim": null
+    }
+  ],
+  "updated_at": "2026-07-18T07:31:46.851507+07:00"
+}

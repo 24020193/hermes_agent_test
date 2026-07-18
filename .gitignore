@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+env/
+
+# Môi trường và Bảo mật
+.env
+*.local
+
+# Hệ điều hành
+.DS_Store
+Thumbs.db
